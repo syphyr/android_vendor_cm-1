@@ -291,8 +291,8 @@ ifdef LINEAGE_BUILDTYPE
         endif
     endif
 else
-    # If LINEAGE_BUILDTYPE is not defined, set to UNOFFICIAL
-    LINEAGE_BUILDTYPE := UNOFFICIAL
+    # If LINEAGE_BUILDTYPE is not defined, set to NIGHTLY
+    LINEAGE_BUILDTYPE := NIGHTLY
     LINEAGE_EXTRAVERSION :=
 endif
 
