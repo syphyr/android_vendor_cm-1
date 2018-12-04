@@ -276,8 +276,8 @@ ifdef CM_BUILDTYPE
         endif
     endif
 else
-    # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
-    CM_BUILDTYPE := UNOFFICIAL
+    # If CM_BUILDTYPE is not defined, set to NIGHTLY
+    CM_BUILDTYPE := NIGHTLY
     CM_EXTRAVERSION :=
 endif
 
