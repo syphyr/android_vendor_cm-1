@@ -189,6 +189,10 @@ PRODUCT_PACKAGES += \
     ssh-keygen \
     start-ssh
 
+# Privacy-friendly netmonitor
+PRODUCT_PACKAGES += \
+    privacy-friendly-netmonitor
+
 # rsync
 PRODUCT_PACKAGES += \
     rsync
