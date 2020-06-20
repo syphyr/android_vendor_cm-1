@@ -169,6 +169,10 @@ PRODUCT_PACKAGES += \
     libhealthd.cm
 endif
 
+# DNSCrypt
+PRODUCT_PACKAGES += \
+    dnscrypt-proxy
+
 # ExFAT support
 WITH_EXFAT ?= true
 ifeq ($(WITH_EXFAT),true)
