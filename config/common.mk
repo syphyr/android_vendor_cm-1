@@ -169,6 +169,10 @@ PRODUCT_PACKAGES += \
     libhealthd.cm
 endif
 
+# Bromite Webview
+PRODUCT_PACKAGES += \
+    bromite-webview
+
 # DNSCrypt
 PRODUCT_PACKAGES += \
     dnscrypt-proxy
